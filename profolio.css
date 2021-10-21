@@ -1,7 +1,23 @@
 body {
-    background-image: url("black\ girl\ with\ laptop.jpg");
-    background-color: #cccccc; 
-     max-width: 1000%;
+    background-image: url("black\ girl\ with\ laptop.jpg")-webkit-linear-gradient();
+    opacity: 0.6;
+    background-color: peachpuff; 
+     max-width: 100%;
        max-height: max-content;
         background-repeat: no-repeat;
-      }
+    }
+      
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background:peachpuff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: plum;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: plum;
+}
