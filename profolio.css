@@ -1,11 +1,24 @@
-body {
+
+  .header {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:xx-large;
+    color: black;
+    background-color: peachpuff;
+    text-align: center;
+    padding: 5px;
+  }
+  body {
     background-image: url("black\ girl\ with\ laptop.jpg")-webkit-linear-gradient();
     opacity: 0.6;
     background-color: peachpuff; 
      max-width: 100%;
        max-height: max-content;
         background-repeat: no-repeat;
+        
     }
+    /*Photo by <a href="https://unsplash.com/@dtbosse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Thomas</a> on <a href="https://unsplash.com/s/photos/black-woman-laptop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
       
 ::-webkit-scrollbar {
   width: 10px;
@@ -20,4 +33,55 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: plum;
+}
+ol{
+  list-style-type: none;
+  margin: 5;
+  padding: 5px;;
+}
+li{
+  display: inline;
+}
+li{
+  float: right;
+}
+
+a{
+  display: block;
+  padding: 8px;
+  background-color: peachpuff;
+}
+ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: plum;
+}
+
+li {
+  float: right;  
+}
+
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:plum ;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  color:black
+  
+}
+ul {
+  float:left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden
 }
