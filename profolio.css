@@ -49,14 +49,14 @@ ol{
   a{
     display: block;
     padding: 8px;
-    background-color: rgb(207, 172, 76);
+    background-color: peachpuff;
   }
   ol{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #6d3908;
+    background-color:white;
   }
   
   li {
@@ -65,17 +65,17 @@ ol{
 
   li a{
     display: block;
-    color: #6d3908;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    background-color:#6d3908 ;
+    background-color:plum ;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
-    color: rgb(207, 172, 76)
+    color:black
     
   }
   ul {
