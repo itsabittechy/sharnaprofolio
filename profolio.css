@@ -9,7 +9,7 @@
     padding: 5px;
   }
   body {
-    background-image: url("black\ girl\ with\ laptop.jpg")-webkit-linear-gradient();
+    background-image: url("pictures/girls\ without\ faces.jpg")-webkit-linear-gradient();
     opacity: 0.6;
     background-color: peachpuff; 
      max-width: 100%;
@@ -19,7 +19,7 @@
     }
     /*Photo by <a href="https://unsplash.com/@dtbosse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Thomas</a> on <a href="https://unsplash.com/s/photos/black-woman-laptop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   */
-      
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -56,7 +56,6 @@ ol{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:white;
   }
   
   li {
