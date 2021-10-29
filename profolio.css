@@ -1,4 +1,13 @@
 
+body {
+background-image: url('pictures/girls\ without\ facest.jpg'); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+opacity: 0.5;
+} 
+
+
   .header {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
