@@ -11,7 +11,7 @@
   body {
     background-image: url("pictures/girls\ without\ facest.jpg")-webkit-linear-gradient();
     opacity: 0.6;
-    background-color: peachpuff; 
+    background-color: rgba(255, 161, 197, 0.836); 
      max-width: 100%;
        max-height: max-content;
         background-repeat: no-repeat;
@@ -83,4 +83,7 @@ ol{
     margin: 0;
     padding: 0;
     overflow: hidden
+  }
+  footer{
+    background-position: bottom page;
   }
