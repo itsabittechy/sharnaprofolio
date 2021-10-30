@@ -28,20 +28,7 @@ background-size: cover;
     /*Photo by <a href="https://unsplash.com/@dtbosse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Thomas</a> on <a href="https://unsplash.com/s/photos/black-woman-laptop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   */
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background:peachpuff;
-}
 
-::-webkit-scrollbar-thumb {
-  background: plum;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: plum;
-}
 ol{
     list-style-type: none;
     margin: 5;
@@ -92,6 +79,28 @@ ol{
     padding: 0;
     overflow: hidden
   }
-  footer{
-    background-position: bottom page;
+  footer {
+    background-color:rgb(255, 161, 197);
+    text-align: center;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
   }
+
+  #content-wrap {
+    padding-bottom: 2.rem;    /* Footer height */
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 97.5%;
+    height: 2.rem;            /* Footer height */
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    opacity:1;
+}
