@@ -32,13 +32,30 @@
     img height="300px" img width="300px" padding= "20px">
   </a>
 
- <form></form>
+
  <div id="page-container">
   <div id="content-wrap">
     <!-- all other page content -->
   </div>
   <footer id="footer">Made By Sharna Ebony Brown 2021</footer>
 </div>
+<div class="container">
+  <form action="action_page.php">
 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="email">Email address</label>
+    <input type="text" id="email" name="email" placeholder="Email Address..">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 </body>
 </html>
