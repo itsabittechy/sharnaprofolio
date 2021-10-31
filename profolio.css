@@ -51,11 +51,16 @@ ol{
     float: right;
   }
   
-  a,p{
+  p{
     display: block;
     padding: 8px;
     background-color: rgb(255, 161, 197);
     float: left;
+    width: 450px;
+    height:410px;
+    border: 10px ;
+    padding: 40px;
+    margin: 30px;
   }
   ol{
     list-style-type: none;
@@ -123,10 +128,10 @@ h3{
 .heading {
   float:right;
 }
-p{
-  width: 450px;
-  height:410px;
-  border: 10px ;
-  padding: 40px;
-  margin: 30px;
+a{
+  display: block;
+    padding: 8px;
+    background-color: rgb(255, 161, 197);
+    float: left;
+
 }
