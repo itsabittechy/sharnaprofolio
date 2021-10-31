@@ -42,7 +42,8 @@ img {
 ol{
     list-style-type: none;
     margin: 5;
-    padding: 5px;;
+    padding: 5px;
+    color: rgb(255, 161, 197);
   }
   li{
     display: inline;
@@ -63,18 +64,20 @@ ol{
     margin: 30px;
   }
   ol{
-    list-style-type: none;
+    
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
   li {
-    float: right;  
+    float: right;
+    color: rgb(255, 161, 197);  
   }
 
   li a{
     display: block;
+    background-color: rgb(255, 161, 197);
     color:black;
     text-align: center;
     padding: 14px 16px;
@@ -128,10 +131,11 @@ h3{
 .heading {
   float:right;
 }
-a{
-  display: block;
+a img{
+  display:inline-block;
     padding: 8px;
     background-color: rgb(255, 161, 197);
-    float: left;
+    height: 300px;
+    width: 300px;
 
 }
