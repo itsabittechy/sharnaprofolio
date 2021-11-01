@@ -124,9 +124,10 @@ ol{
   
   
 }
-
-h3{
-  text-align:start
+h5{
+  font-size: 61px;
+  text-align: center;
+  
 }
 .heading {
   float:right;
