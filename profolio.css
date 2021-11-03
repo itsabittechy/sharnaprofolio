@@ -52,8 +52,26 @@ ol{
     float: right;
   }
   
-  p{
+  #bio {
+    padding: 10px;
+    width: 30em;
+   
+  }
+.flex-container{
+  display:flex
+}
+  .item {
+    border-block-color:rgb(255, 161, 197) ;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: rgb(255, 161, 197);
+    padding: 15px;
+    margin-bottom: 1em;
+  }
+  
+   /* p{
     display: block;
+    block-size: fit content;
     padding: 8px;
     background-color: rgb(255, 161, 197);
     float: left;
@@ -62,7 +80,7 @@ ol{
     border: 10px ;
     padding: 40px;
     margin: 30px;
-  }
+  }*/
   ol{
     
     margin: 0;
