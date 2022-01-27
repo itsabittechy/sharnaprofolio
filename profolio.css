@@ -131,7 +131,7 @@ ol{
   }
   
   footer {
-    position:sticky;
+    position:relative;
     bottom: 0;
     width: 98%;
     height: 2.rem;            /* Footer height */
@@ -146,6 +146,7 @@ ol{
 h5{
   font-size: 61px;
   text-align: center;
+  padding-bottom: 30px;
   
 }
 .heading {
